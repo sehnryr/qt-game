@@ -1,10 +1,14 @@
 ## Game Preview
 
+<details>
+  <summary>Preview</summary>
+  
 ![image](https://user-images.githubusercontent.com/40632486/171402683-225855b7-d595-4100-9ed5-b2c842ce5df5.png)
 ![image](https://user-images.githubusercontent.com/40632486/171412337-6bde64aa-c176-48ea-88bf-5400e7ef7877.png)
 ![image](https://user-images.githubusercontent.com/40632486/171412400-14c3a87a-eb18-4ffd-a6b7-f9359f93c73a.png)
 ![image](https://user-images.githubusercontent.com/40632486/171412517-9f62b4a8-0ff7-4386-8efe-1244f2846277.png)
 ![image](https://user-images.githubusercontent.com/40632486/171412555-a73d2527-a7bf-4b4b-8531-dfeeeb3e8d45.png)
+</details>
 
 ## Settings
 
