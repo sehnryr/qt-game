@@ -1,0 +1,8 @@
+**/.vscode
+
+**/_*
+**/moc_*
+**/*.o
+**/*.pro
+**/Makefile
+**/.qmake.stash
