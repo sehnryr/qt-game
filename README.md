@@ -14,12 +14,6 @@
 
 ![image](https://user-images.githubusercontent.com/40632486/171413071-f987ce67-a49c-468c-b522-c3fb2c860f19.png)
 
-
-If it doesn't compile, you might have those missing in your `.pro` file:
-```pro
-QT += gui core widgets multimedia
-```
-
 ## Debian 11
 
 ### Setup
@@ -44,6 +38,11 @@ cd directory/
 qmake-qt5 -project # make sure to add QT field in the generated .pro file 
 qmake-qt5
 make
+```
+
+If it doesn't compile, you might have those missing in your `.pro` file:
+```pro
+QT += gui core widgets multimedia
 ```
 
 ### Errors
