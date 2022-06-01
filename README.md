@@ -20,7 +20,7 @@
 
 apt packages:
 ```
-sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools qtmultimedia5-dev -y
+sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools qtmultimedia5-dev libqt5multimedia5-plugins -y
 ```
 
 Compiling:
