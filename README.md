@@ -23,6 +23,14 @@ apt packages:
 sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools qtmultimedia5-dev -y
 ```
 
+Compiling:
+```sh
+cd directory/
+qmake -project # make sure to add QT field in the generated .pro file 
+qmake
+make
+```
+
 ## Fedora 36
 
 ### Setup
