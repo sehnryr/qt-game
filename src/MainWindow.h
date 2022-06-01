@@ -5,6 +5,7 @@
 #include <QGraphicsView>
 #include <QMenu>
 #include <QMenuBar>
+#include <QMessageBox>
 #include <QAction>
 #include <QSlider>
 #include <QDialog>
@@ -31,7 +32,7 @@ private:
 
 public:
     MainWindow(QWidget *parent = nullptr);
-    virtual ~MainWindow();
+    virtual ~MainWindow() {}
 
     qreal getGravity() const { return *gravity; }
     void setGravity(qreal const value) { *gravity = value; }
@@ -41,6 +42,7 @@ public:
 
 public slots:
     void slot_settingsMenu();
+    void slot_aboutMenu();
 };
 
 #endif // CPP_QT_MAIN_WINDOW_H

@@ -24,6 +24,10 @@ MainWindow::MainWindow(QWidget *parent)
     connect(settingsHelp, SIGNAL(triggered()), this, SLOT(slot_settingsMenu()));
     helpMenu->addAction(settingsHelp);
 
+    QAction *aboutHelp = new QAction(tr("&About"), this);
+    connect(aboutHelp, SIGNAL(triggered()), this, SLOT(slot_aboutMenu()));
+    helpMenu->addAction(aboutHelp);
+
     QWidget *widgetGravity = new QWidget();
     QWidget *widgetJumpHeight = new QWidget();
 
@@ -75,10 +79,6 @@ MainWindow::MainWindow(QWidget *parent)
             setJumpHeight((qreal)value/10); });
 }
 
-MainWindow::~MainWindow()
-{
-}
-
 void MainWindow::slot_settingsMenu()
 {
     this->sliderGravity.setValue((int)this->getGravity() * 10);
@@ -88,4 +88,11 @@ void MainWindow::slot_settingsMenu()
     this->labelJumpHeightValue.setText(QString::number(this->getJumpHeight()));
 
     this->settingsMenu->exec();
+}
+
+void MainWindow::slot_aboutMenu()
+{
+    QMessageBox msgBox;
+    msgBox.setText("Created by Youn Mélois.\nhttps://github.com/sehnryr/qt-game");
+    msgBox.exec();
 }
